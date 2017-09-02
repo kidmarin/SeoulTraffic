@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C813F54BF9532A90B263C17 /* Pods_SeoulTraffic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C920E6B6F314119E5F3129 /* Pods_SeoulTraffic.framework */; };
+		9C13CF501F10AF4D006F6CB9 /* MapDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C13CF4F1F10AF4D006F6CB9 /* MapDetails.swift */; };
+		9C13CF541F10FA9B006F6CB9 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C13CF531F10FA9B006F6CB9 /* images.xcassets */; };
+		9C21B3261F0FEC2900B6EB9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C21B3241F0FEC2900B6EB9D /* AppDelegate.swift */; };
+		9C21B3271F0FEC2900B6EB9D /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C21B3251F0FEC2900B6EB9D /* MainTabController.swift */; };
+		9C21B32A1F0FEC3000B6EB9D /* MapScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C21B3281F0FEC3000B6EB9D /* MapScrollView.swift */; };
+		9C21B32B1F0FEC3000B6EB9D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C21B3291F0FEC3000B6EB9D /* MapViewController.swift */; };
+		9C5B822B1F0E9B3C00656162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5B82291F0E9B3C00656162 /* LaunchScreen.storyboard */; };
+		9C5B82361F0E9B3C00656162 /* SeoulTrafficTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5B82351F0E9B3C00656162 /* SeoulTrafficTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C5B82321F0E9B3C00656162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C5B82151F0E9B3B00656162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5B821C1F0E9B3B00656162;
+			remoteInfo = SeoulTraffic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D60574A4A384E1F3BBF2898 /* Pods-SeoulTraffic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeoulTraffic.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeoulTraffic/Pods-SeoulTraffic.release.xcconfig"; sourceTree = "<group>"; };
+		73776B4F6DE5E710C5A23A79 /* Pods-SeoulTraffic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeoulTraffic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeoulTraffic/Pods-SeoulTraffic.debug.xcconfig"; sourceTree = "<group>"; };
+		9C13CF4F1F10AF4D006F6CB9 /* MapDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapDetails.swift; path = Map/Model/MapDetails.swift; sourceTree = "<group>"; };
+		9C13CF531F10FA9B006F6CB9 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		9C21B3241F0FEC2900B6EB9D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = root/AppDelegate.swift; sourceTree = "<group>"; };
+		9C21B3251F0FEC2900B6EB9D /* MainTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabController.swift; path = root/MainTabController.swift; sourceTree = "<group>"; };
+		9C21B3281F0FEC3000B6EB9D /* MapScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapScrollView.swift; path = Map/MapScrollView.swift; sourceTree = "<group>"; };
+		9C21B3291F0FEC3000B6EB9D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Map/MapViewController.swift; sourceTree = "<group>"; };
+		9C5B821D1F0E9B3C00656162 /* SeoulTraffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeoulTraffic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5B822A1F0E9B3C00656162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C5B822C1F0E9B3C00656162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5B82311F0E9B3C00656162 /* SeoulTrafficTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeoulTrafficTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5B82351F0E9B3C00656162 /* SeoulTrafficTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeoulTrafficTests.swift; sourceTree = "<group>"; };
+		9C5B82371F0E9B3C00656162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8C920E6B6F314119E5F3129 /* Pods_SeoulTraffic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeoulTraffic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C5B821A1F0E9B3B00656162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C813F54BF9532A90B263C17 /* Pods_SeoulTraffic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5B822E1F0E9B3C00656162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C13CF4E1F10AF08006F6CB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C13CF4F1F10AF4D006F6CB9 /* MapDetails.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9C21B3211F0FEB7A00B6EB9D /* root */ = {
+			isa = PBXGroup;
+			children = (
+				9C21B3241F0FEC2900B6EB9D /* AppDelegate.swift */,
+				9C21B3251F0FEC2900B6EB9D /* MainTabController.swift */,
+			);
+			name = root;
+			sourceTree = "<group>";
+		};
+		9C5B82141F0E9B3B00656162 = {
+			isa = PBXGroup;
+			children = (
+				9C5B821F1F0E9B3C00656162 /* SeoulTraffic */,
+				9C5B82341F0E9B3C00656162 /* SeoulTrafficTests */,
+				9C5B821E1F0E9B3C00656162 /* Products */,
+				F0891404B1262A00A4B117A3 /* Pods */,
+				C25F0FFBAFC6EBE83B368CF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C5B821E1F0E9B3C00656162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C5B821D1F0E9B3C00656162 /* SeoulTraffic.app */,
+				9C5B82311F0E9B3C00656162 /* SeoulTrafficTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C5B821F1F0E9B3C00656162 /* SeoulTraffic */ = {
+			isa = PBXGroup;
+			children = (
+				9C21B3211F0FEB7A00B6EB9D /* root */,
+				9C5B82421F0EA1CE00656162 /* Map */,
+				9C5B82291F0E9B3C00656162 /* LaunchScreen.storyboard */,
+				9C5B822C1F0E9B3C00656162 /* Info.plist */,
+				9C13CF531F10FA9B006F6CB9 /* images.xcassets */,
+			);
+			path = SeoulTraffic;
+			sourceTree = "<group>";
+		};
+		9C5B82341F0E9B3C00656162 /* SeoulTrafficTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C5B82351F0E9B3C00656162 /* SeoulTrafficTests.swift */,
+				9C5B82371F0E9B3C00656162 /* Info.plist */,
+			);
+			path = SeoulTrafficTests;
+			sourceTree = "<group>";
+		};
+		9C5B82421F0EA1CE00656162 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9C13CF4E1F10AF08006F6CB9 /* Model */,
+				9C21B3281F0FEC3000B6EB9D /* MapScrollView.swift */,
+				9C21B3291F0FEC3000B6EB9D /* MapViewController.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		C25F0FFBAFC6EBE83B368CF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C920E6B6F314119E5F3129 /* Pods_SeoulTraffic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0891404B1262A00A4B117A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73776B4F6DE5E710C5A23A79 /* Pods-SeoulTraffic.debug.xcconfig */,
+				0D60574A4A384E1F3BBF2898 /* Pods-SeoulTraffic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C5B821C1F0E9B3B00656162 /* SeoulTraffic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5B823A1F0E9B3C00656162 /* Build configuration list for PBXNativeTarget "SeoulTraffic" */;
+			buildPhases = (
+				067ED8C259888AA8CADDB50C /* [CP] Check Pods Manifest.lock */,
+				9C5B82191F0E9B3B00656162 /* Sources */,
+				9C5B821A1F0E9B3B00656162 /* Frameworks */,
+				9C5B821B1F0E9B3B00656162 /* Resources */,
+				627883AF123DF148D56F896C /* [CP] Embed Pods Frameworks */,
+				C4924EDA6A08DE4B044DF298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeoulTraffic;
+			productName = SeoulTraffic;
+			productReference = 9C5B821D1F0E9B3C00656162 /* SeoulTraffic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C5B82301F0E9B3C00656162 /* SeoulTrafficTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5B823D1F0E9B3C00656162 /* Build configuration list for PBXNativeTarget "SeoulTrafficTests" */;
+			buildPhases = (
+				9C5B822D1F0E9B3C00656162 /* Sources */,
+				9C5B822E1F0E9B3C00656162 /* Frameworks */,
+				9C5B822F1F0E9B3C00656162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5B82331F0E9B3C00656162 /* PBXTargetDependency */,
+			);
+			name = SeoulTrafficTests;
+			productName = SeoulTrafficTests;
+			productReference = 9C5B82311F0E9B3C00656162 /* SeoulTrafficTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C5B82151F0E9B3B00656162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AppSpace;
+				TargetAttributes = {
+					9C5B821C1F0E9B3B00656162 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					9C5B82301F0E9B3C00656162 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C5B821C1F0E9B3B00656162;
+					};
+				};
+			};
+			buildConfigurationList = 9C5B82181F0E9B3B00656162 /* Build configuration list for PBXProject "SeoulTraffic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C5B82141F0E9B3B00656162;
+			productRefGroup = 9C5B821E1F0E9B3C00656162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C5B821C1F0E9B3B00656162 /* SeoulTraffic */,
+				9C5B82301F0E9B3C00656162 /* SeoulTrafficTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C5B821B1F0E9B3B00656162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C13CF541F10FA9B006F6CB9 /* images.xcassets in Resources */,
+				9C5B822B1F0E9B3C00656162 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5B822F1F0E9B3C00656162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		067ED8C259888AA8CADDB50C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		627883AF123DF148D56F896C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeoulTraffic/Pods-SeoulTraffic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4924EDA6A08DE4B044DF298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeoulTraffic/Pods-SeoulTraffic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C5B82191F0E9B3B00656162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C21B3271F0FEC2900B6EB9D /* MainTabController.swift in Sources */,
+				9C21B3261F0FEC2900B6EB9D /* AppDelegate.swift in Sources */,
+				9C21B32A1F0FEC3000B6EB9D /* MapScrollView.swift in Sources */,
+				9C21B32B1F0FEC3000B6EB9D /* MapViewController.swift in Sources */,
+				9C13CF501F10AF4D006F6CB9 /* MapDetails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5B822D1F0E9B3C00656162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5B82361F0E9B3C00656162 /* SeoulTrafficTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C5B82331F0E9B3C00656162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5B821C1F0E9B3B00656162 /* SeoulTraffic */;
+			targetProxy = 9C5B82321F0E9B3C00656162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C5B82291F0E9B3C00656162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5B822A1F0E9B3C00656162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C5B82381F0E9B3C00656162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C5B82391F0E9B3C00656162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C5B823B1F0E9B3C00656162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73776B4F6DE5E710C5A23A79 /* Pods-SeoulTraffic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SeoulTraffic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppSpace.SeoulTraffic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9C5B823C1F0E9B3C00656162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D60574A4A384E1F3BBF2898 /* Pods-SeoulTraffic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SeoulTraffic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppSpace.SeoulTraffic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9C5B823E1F0E9B3C00656162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeoulTrafficTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hayden.SeoulTrafficTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeoulTraffic.app/SeoulTraffic";
+			};
+			name = Debug;
+		};
+		9C5B823F1F0E9B3C00656162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeoulTrafficTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hayden.SeoulTrafficTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeoulTraffic.app/SeoulTraffic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C5B82181F0E9B3B00656162 /* Build configuration list for PBXProject "SeoulTraffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5B82381F0E9B3C00656162 /* Debug */,
+				9C5B82391F0E9B3C00656162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5B823A1F0E9B3C00656162 /* Build configuration list for PBXNativeTarget "SeoulTraffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5B823B1F0E9B3C00656162 /* Debug */,
+				9C5B823C1F0E9B3C00656162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5B823D1F0E9B3C00656162 /* Build configuration list for PBXNativeTarget "SeoulTrafficTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5B823E1F0E9B3C00656162 /* Debug */,
+				9C5B823F1F0E9B3C00656162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C5B82151F0E9B3B00656162 /* Project object */;
+}
